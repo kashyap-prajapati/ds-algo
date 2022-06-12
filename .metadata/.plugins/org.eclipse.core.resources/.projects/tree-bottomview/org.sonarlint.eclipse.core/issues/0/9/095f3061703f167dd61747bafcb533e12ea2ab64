@@ -1,0 +1,9 @@
+
+p	java:S106-"9Replace this use of System.out or System.err by a logger.(ıÄ÷İÿÿÿÿÿ8³Úùµ”0H»RMAJORZ
+CODE_SMELL
+K
+java:S1700"Rename field "node"(ûÇšÇıÿÿÿÿ8ô’„£”0HRMAJORZ
+CODE_SMELL
+g
+java:S2864,"4Iterate over the "entrySet" instead of the "keySet".(‘„Ñ¢8á‡ûµ”0HÁRMAJORZ
+CODE_SMELL

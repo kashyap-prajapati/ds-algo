@@ -1,0 +1,40 @@
+package com.algorithm.tree.commonancestor;
+
+public class Main {
+	
+	static class TreeNode{
+		int data;
+		TreeNode left,right;
+		
+		public TreeNode(int data) {
+			this.data=data;
+			this.left=this.right=null;
+		}
+	}
+	
+	static TreeNode commonAncestor(TreeNode root,int n1,int n2) {
+		
+		if(root==null) {
+			return null;
+		}
+		
+		if(root.data == n1 || root.data == n2)
+	            return node;
+		
+		TreeNode left = commonAncestor(root.left);
+		TreeNode right = commonAncestor(root.right);
+		
+		if(left!=null && right!=null)
+			System.out.println(root.data);
+	
+		return null;
+	}
+	
+	public static void main(String []args) {
+		TreeNode root= new TreeNode(1);
+		root.left=new TreeNode(2);
+		root.right = new TreeNode(3);
+		commonAncestor(root);
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.algorithm.treesort;
+
+public class Main {
+	
+	
+	static insert(int []arr) {
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+
+K
+java:S1700"Rename field "node"(ûÇšÇıÿÿÿÿ8ÌàÀŸ”0HÍRMAJORZ
+CODE_SMELL
+T
+java:S1116A"Remove this empty statement.(üéü¹üÿÿÿÿ8÷Ò¥¡”0HËRMINORZ
+CODE_SMELL
+p	java:S1064"9Replace this use of System.out or System.err by a logger.(µÅ¿ãÿÿÿÿÿ8•éÒŸ”0HÎRMAJORZ
+CODE_SMELL
+V
+java:S1659"#Declare "right" on a separate line.(ˆ©€¢8ÇÂ”0HÑRMINORZ
+CODE_SMELL
+f
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8ôƒ§¡”0HÏRMINORZ
+CODE_SMELL

@@ -1,0 +1,36 @@
+package com.algorithm.tree.height;
+
+
+
+public class Main {
+
+	static class TreeNode{
+		int data;
+		TreeNode left,right;
+		
+		public TreeNode(int key) {
+			this.data=key;
+			this.left=this.right=null;
+		}
+	}
+	
+	static int heightOfTree(TreeNode root) {
+		if(root==null)
+			return 0;
+		int left = heightOfTree(root.left);
+		int right = heightOfTree(root.right);
+		
+		if(left>right)
+			return left+1;
+		return right+1;
+	}
+	
+	public static void main(String args) {
+		TreeNode root =  new TreeNode(1);
+		root.left=new TreeNode(2);
+		root.right=new TreeNode(3);
+		root.left.left=new TreeNode(5);
+		root.right.right=new TreeNode(4);
+		System.out.println();(heightOfTree(root, 1));
+	}
+}

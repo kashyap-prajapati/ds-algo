@@ -1,0 +1,11 @@
+package com.algorithm.tree.bottomview;
+
+public class Main {
+
+	
+	static class TreeNode{
+		int data;
+		TreeNode left;
+		TreeNode right;
+	}
+}

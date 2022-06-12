@@ -1,0 +1,11 @@
+package com.algorithm.graph.possible.path;
+
+import java.util.LinkedList;
+
+public class Main {
+
+	static class Graph{
+		int v;
+		LinkedList<Integer> []adj; 
+	}
+}

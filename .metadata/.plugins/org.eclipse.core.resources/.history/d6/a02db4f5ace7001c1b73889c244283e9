@@ -1,0 +1,38 @@
+package com.algorithm.tree.bottomview;
+
+import java.util.LinkedList;
+import java.util.Map;
+import java.util.Queue;
+import java.util.TreeMap;
+
+public class Main {
+
+	
+	static class TreeNode{
+		int data;
+		TreeNode left;
+		TreeNode right;
+		public TreeNode(int data) {
+			this.data=data;
+		}
+	}
+	
+	static class Node{
+		TreeNode node;
+		int distance;
+		Node(TreeNode node,int distance){
+			this.node=node;
+			this.distance=distance;
+		}
+	}
+	
+	static void levelOrderTraversal(TreeNode root) {
+		Queue<Node> queue = new LinkedList<>();
+		queue.add(new Node(root,0));
+		Map<Integer, Node> map = new TreeMap<Integer, Main.Node>
+	}
+	
+	public static void main(String []args) {
+		
+	}
+}

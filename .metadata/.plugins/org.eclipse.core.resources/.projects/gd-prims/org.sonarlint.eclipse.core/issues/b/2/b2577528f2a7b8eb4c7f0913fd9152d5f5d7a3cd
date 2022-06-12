@@ -1,0 +1,11 @@
+
+g
+java:S1066"/Merge this if statement with the enclosing one.(‚Áşüøÿÿÿÿ8êéŠì“0HRMAJORZ
+CODE_SMELL
+‡
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(Ïñ´8†‡ì“0H RCRITICALZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(ŠÎÂÄ8ß—‘ì“0HŸRMAJORZ
+CODE_SMELL
+ˆ	java:S117$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µœ´×ûÿÿÿÿ8íü’ì“0H©RMINORZ
+CODE_SMELL

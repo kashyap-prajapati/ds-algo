@@ -1,0 +1,9 @@
+
+p	java:S106
+"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8ßŸÂ¼“0H…!RMAJORZ
+CODE_SMELL
+b
+java:S1197"*Move the array designators [] to the type.(ãÁ†Ïþÿÿÿÿ8áò´¼“0H†!RMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(þñ‡„øÿÿÿÿ8ßŸÂ¼“0H‰!RMAJORZ
+CODE_SMELL

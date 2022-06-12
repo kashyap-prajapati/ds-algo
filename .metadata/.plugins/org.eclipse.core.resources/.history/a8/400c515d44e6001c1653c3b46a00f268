@@ -1,0 +1,15 @@
+package com.algorithms.gd.prims;
+
+public class Main {
+
+	static void prims(int [][]graph,int noOfVertex) {
+		boolean[] visited = new boolean[noOfVertex];
+	
+		for(int i=0;i<noOfVertex;i++)
+			visited[i]=false;
+		int noOfEdges = 0;
+		while(noOfEdges < noOfVertex-1) {
+			
+		}
+	}
+}

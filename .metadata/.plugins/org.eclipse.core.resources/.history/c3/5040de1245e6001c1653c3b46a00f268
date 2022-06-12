@@ -1,0 +1,32 @@
+package com.algorithms.gd.prims;
+
+public class Main {
+
+	static void prims(int [][]graph,int noOfVertex) {
+		boolean[] visited = new boolean[noOfVertex];
+	
+		int min=Integer.MAX_VALUE;
+		for(int i=0;i<noOfVertex;i++)
+			visited[i]=false;
+		int noOfEdges = 0;
+		while(noOfEdges < noOfVertex-1) {
+			int x=0;
+			int y=0;
+			for(int i=0;i<noOfVertex;i++) {
+				if(visited[i]) {
+					for(int j=0;j<noOfVertex;j++) {
+						if(!visited[j] && graph[i][j]!=0) {
+							if(min>graph[i][j]) {
+								min=graph[i][j];
+								x=i;
+								y=j;
+							}
+						}
+					}
+				}
+			}
+			visited[y] = true;
+		    noOfEdges++;
+		}
+	}
+}

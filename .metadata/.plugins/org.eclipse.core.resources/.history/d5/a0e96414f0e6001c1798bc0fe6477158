@@ -1,0 +1,9 @@
+package com.algorithm.tree.levelordertraversal;
+
+public class Main {
+
+	static class TreeNode {
+		int data;
+		TreeNode left,right;
+	}
+}

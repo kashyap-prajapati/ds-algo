@@ -1,0 +1,14 @@
+
+j	java:S1068"9Replace this use of System.out or System.err by a logger.(ÃñÇ8ÖŸ‰Œ”0Hò RMAJORZ
+CODE_SMELL
+j	java:S1064"9Replace this use of System.out or System.err by a logger.(åè’X8ø½À‹”0Hó RMAJORZ
+CODE_SMELL
+p	java:S106O"9Replace this use of System.out or System.err by a logger.(õ–ã„üÿÿÿÿ8àå‰Œ”0Hô RMAJORZ
+CODE_SMELL
+o
+java:S22598"DA "NullPointerException" could be thrown; "parent" is nullable here.(ÃñÇ8¸ß‡Œ”0Hõ RMAJORZBUG
+V
+java:S1659"#Declare "right" on a separate line.(ˆ©€¢8©Õ‚‹”0Hù RMINORZ
+CODE_SMELL
+k	java:S1066"9Replace this use of System.out or System.err by a logger.(¼•½´8ªœŠŒ”0Hû RMAJORZ
+CODE_SMELL

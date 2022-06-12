@@ -1,0 +1,10 @@
+package com.algorithm.graph.bfs;
+
+public class Main {
+
+	static class Graph{\
+	
+	public static void main(String []args) {
+		
+	}
+}

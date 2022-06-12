@@ -1,0 +1,21 @@
+package com.algorithm.graph.bfs;
+
+import java.util.LinkedList;
+
+public class Main {
+
+	static class Graph{
+		int v;
+		LinkedList<Integer> []adj;
+		
+		Graph(int v){
+			this.v=v;
+	        for (int i=0; i<v; ++i)
+	            adj[i] = new LinkedList<>();
+		}
+	}
+	
+	public static void main(String []args) {
+		
+	}
+}

@@ -1,0 +1,15 @@
+package com.algorithm.graph.bfs;
+
+import java.util.LinkedList;
+
+public class Main {
+
+	static class Graph{
+		int v;
+		LinkedList<Integer> adj;
+	}
+	
+	public static void main(String []args) {
+		
+	}
+}

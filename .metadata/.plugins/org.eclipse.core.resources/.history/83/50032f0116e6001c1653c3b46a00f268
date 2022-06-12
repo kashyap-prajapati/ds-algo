@@ -1,0 +1,34 @@
+package com.algorithm.dp.lcs;
+
+public class Main {
+	
+	static int max(int a,int b) {
+		if(a>b) {
+			return a;
+		}else {
+			return b;
+	
+		}
+	}
+
+	static int lcs(char[] p,char[] q,int i,int j,String lcs) {
+		if(i==0 || j==0) {
+			return 0;
+		}
+		
+		if(p[i-1]==q[j-1]) {
+			System.out.println(p[i-1]);
+			return 1+lcs(p, q, i-1, j-1,p[i-1]+lcs);
+		}else {
+			return max(lcs(p,q,i-1,j,lcs), lcs(p,q,i,j-1,lcs));
+		}
+	}
+	
+	public static void main(String []args) {
+		 String s1 = "AGGTAB";
+	        String s2 = "GXTXAYB";
+	        String lcs="";
+		System.out.println(lcs(s1.toCharArray(), s2.toCharArray(), s1.length(),s2.length(),lcs));
+		System.out.println(lcs);
+	}
+}

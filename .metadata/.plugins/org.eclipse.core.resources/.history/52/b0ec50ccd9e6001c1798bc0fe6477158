@@ -1,0 +1,15 @@
+package com.algorithm.tree.commonancestor;
+
+public class Main {
+	
+	
+	
+	static void commonAncestor() {
+		
+	}
+	
+	public static void main(String []args) {
+		
+	}
+
+}

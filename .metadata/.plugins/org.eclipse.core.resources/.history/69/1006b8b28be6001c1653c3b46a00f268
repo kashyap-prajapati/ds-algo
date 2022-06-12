@@ -1,0 +1,23 @@
+package com.algorithm.tree.height;
+
+public class Main {
+
+	static class TreeNode{
+		int data;
+		TreeNode left,right;
+		
+		public TreeNode(int key) {
+			this.data=key;
+			this.left=this.right=null;
+		}
+	}
+	
+	static int heightOfTree(TreeNode root) {
+		if(root==null)
+			return 0;
+	}
+	
+	public static void main(String args) {
+		
+	}
+}

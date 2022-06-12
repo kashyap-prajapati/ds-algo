@@ -1,0 +1,52 @@
+package com.algorithm.tree.topview;
+
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.Map;
+import java.util.Queue;
+
+public class Main {
+
+	static class TreeNode{
+		int data;
+		TreeNode left,right;
+		TreeNode(int data){
+			this.data=data;
+			this.left=this.right=null;
+		}
+	}
+	
+	static class Node{
+		TreeNode node;
+		int distance;
+		Node(TreeNode node,int distance){
+			this.node=node;
+			this.distance=distance;
+		}
+	}
+	
+	static void levelOrderTraversal(TreeNode root) {
+		if(root==null)
+			return;
+		Queue<Node> queue = new LinkedList<>();
+		queue.add(new Node(root, 0));
+		Map<Integer,Node> map = new HashMap<>();
+		map.put(0, root);
+		while(!queue.isEmpty()) {
+			if (!map.containsKey(tmpNode.hd)) {
+				map.put(tmpNode.hd, tmpNode.node);
+            }
+			Node node= queue.poll();
+			if(node.node.left!=null) {
+				queue.add(new Node(root.left,node.distance-1));
+			}
+			if(node.node.right!=null) {
+				queue.add(new Node(root.right,node.distance+1));
+			}
+		}
+	}
+	
+	public static void main(String []args) {
+		
+	}
+}

@@ -1,0 +1,31 @@
+package com.algorithm.bst.kthsmallest;
+
+public class Main {
+	 static class TreeNode {
+		 int data;
+		 TreeNode left,right;
+		 public TreeNode(int data) {
+			 this.data=data;
+			 this.left=this.right=null;
+		 }
+	 }
+	 
+	 static void inorderTraversal(TreeNode root,int currentIndex,int k) {
+		 if(root==null)
+			 return;
+		 inorderTraversal(root.left,currentIndex,k);
+		 if(currentIndex++==k) {
+			 System.out.println(root.data);	 
+		 }
+		
+		 inorderTraversal(root.right,currentIndex,k);
+	 }
+	 
+	 public static void main(String []args) {
+		 TreeNode root = new TreeNode(2);
+		 root.left = new TreeNode(1);
+		 root.right = new TreeNode(3);
+		 inorderTraversal(root,1,1);
+	 }
+
+}

@@ -1,0 +1,18 @@
+package com.algorithm.tree.commonancestor;
+
+public class Main {
+	
+	static class TreeNode{
+		int data;
+		TreeNode left,right;
+	}
+	
+	static void commonAncestor() {
+		
+	}
+	
+	public static void main(String []args) {
+		
+	}
+
+}

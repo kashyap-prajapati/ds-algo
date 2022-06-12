@@ -1,0 +1,18 @@
+package com.algorithm.tree.height;
+
+public class Main {
+
+	static class TreeNode{
+		int data;
+		TreeNode left,right;
+		
+		public TreeNode(int key) {
+			this.data=key;
+			this.left=this.right=null;
+		}
+	}
+	
+	public static void main() {
+		
+	}
+}

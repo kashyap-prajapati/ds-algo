@@ -1,0 +1,6 @@
+package com.insertionsort;
+
+public class Main {
+
+	void static main(String []args) {
+}

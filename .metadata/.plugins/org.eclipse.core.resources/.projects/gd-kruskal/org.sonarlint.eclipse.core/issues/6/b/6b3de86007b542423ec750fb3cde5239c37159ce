@@ -1,0 +1,42 @@
+
+p	java:S106\"9Replace this use of System.out or System.err by a logger.(œ”ÆŸûÿÿÿÿ8í¯ ¹”0H¥!RMAJORZ
+CODE_SMELL
+R
+java:S1659"Declare "E" on a separate line.(ßí¶²8ÿšÒ¸”0H¦!RMINORZ
+CODE_SMELL
+ˆ	java:S117O"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çşĞşÿÿÿÿ8í¯ ¹”0H¨!RMINORZ
+CODE_SMELL
+b
+java:S1197"*Move the array designators [] to the type.(îï²şÿÿÿÿ8ÿšÒ¸”0H©!RMINORZ
+CODE_SMELL
+~	java:S116"LRename this field "V" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßí¶²8ÿšÒ¸”0H¬!RMINORZ
+CODE_SMELL
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ˆöÕö8èÌË¸”0H­!RMINORZ
+CODE_SMELL
+]
+java:S1197*"*Move the array designators [] to the type.(Ä‘…”8””Ó¸”0H®!RMINORZ
+CODE_SMELL
+\
+java:S1197:"*Move the array designators [] to the type.(ÓÔİj8í¯ ¹”0H±!RMINORZ
+CODE_SMELL
+k	java:S106f"9Replace this use of System.out or System.err by a logger.(…å¿‘8í¯ ¹”0H´!RMAJORZ
+CODE_SMELL
+]
+java:S1197A"*Move the array designators [] to the type.(îÿè‰8í¯ ¹”0Hµ!RMINORZ
+CODE_SMELL
+b
+java:S1197$"*Move the array designators [] to the type.(Åˆøÿÿÿÿ8Ûè˜¹”0H¸!RMINORZ
+CODE_SMELL
+	java:S1007"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡ñ8í¯ ¹”0H»!RMINORZ
+CODE_SMELL
+‘
+java:S1210"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(È¶­üÿÿÿÿ8¤ÉÆ¸”0H¼!RMINORZ
+CODE_SMELL
+‚	java:S117n"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ€Ä8„€§¹”0H½!RMINORZ
+CODE_SMELL
+~	java:S116"LRename this field "E" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßí¶²8ÿšÒ¸”0H¾!RMINORZ
+CODE_SMELL
+p	java:S106a"9Replace this use of System.out or System.err by a logger.(±àéııÿÿÿÿ8í¯ ¹”0H¿!RMAJORZ
+CODE_SMELL
+ƒ	java:S117m"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“ß­©8„€§¹”0HÀ!RMINORZ
+CODE_SMELL

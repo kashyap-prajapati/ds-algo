@@ -1,0 +1,16 @@
+package com.algorithm.graph.dfs;
+
+import java.util.LinkedList;
+
+public class Main {
+
+	
+	static class Graph{
+		int v;
+		LinkedList<Integer> []adj ;
+		
+		Graph(int v){
+			
+		}
+	}
+}

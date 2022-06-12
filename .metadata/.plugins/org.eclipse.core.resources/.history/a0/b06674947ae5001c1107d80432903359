@@ -1,0 +1,21 @@
+package com.algorithm.treesort;
+
+public class Main {
+	
+	static TreeNode binarySearchTree(TreeNode root, int key) {
+		if(root==null) return new TreeNode(key);
+		if(key<root.value) {
+			root.left=binarySearchTree(root.left, key);
+		}else if(key>root.value) {
+			root.right=binarySearchTree(root.right, key);
+		}
+		return root;
+	}
+	
+	static void treeSort(int []arr) {
+		TreeNode root = new TreeNode(arr[0]);
+		for(int i=1;i<arr.length;i++)
+			root=
+	}
+
+}

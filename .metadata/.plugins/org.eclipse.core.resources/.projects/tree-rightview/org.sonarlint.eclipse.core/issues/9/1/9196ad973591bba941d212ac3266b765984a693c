@@ -1,0 +1,11 @@
+
+k	java:S106"9Replace this use of System.out or System.err by a logger.(èþ¯ð8¶ìÛù“0Hã RMAJORZ
+CODE_SMELL
+k	java:S106)"9Replace this use of System.out or System.err by a logger.(À¦°Š8¶ìÛù“0Hä RMAJORZ
+CODE_SMELL
+p	java:S106:"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8¶ìÛù“0Hå RMAJORZ
+CODE_SMELL
+V
+java:S1659
+"#Declare "right" on a separate line.(ˆ©€¢8¶ìÛù“0Hæ RMINORZ
+CODE_SMELL

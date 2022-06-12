@@ -1,0 +1,41 @@
+package com.algorithm.graph.bfs;
+
+import java.util.LinkedList;
+
+public class Main {
+
+	static class Graph{
+		int v;
+		LinkedList<Integer> []adj;
+		
+		Graph(int v){
+			this.v=v;
+	        for (int i=0; i<v; ++i)
+	            adj[i] = new LinkedList<>();
+		}
+		
+		void addEdge(int v, int w){
+			adj[v].add(w);
+		}
+	}
+	
+	void bfs(Graph graph,int s) {
+		boolean []visited = new boolean[graph.v];
+		LinkedList<Integer> queue = new LinkedList<>();
+		visited[s]=true;
+		queue.add(s);
+		while(!queue.isEmpty()) {
+			int node = queue.poll();
+			
+			for(int i:graph.adj[node]) {
+				if(!visited[i]) {
+					queue.add(i)
+				}
+			}
+		}
+	}
+	
+	public static void main(String []args) {
+		
+	}
+}

@@ -1,0 +1,16 @@
+package com.algorithm.gd.kruskal;
+
+public class Main {
+	
+	static class Edge implements Comparable<Edege>{
+		int src;
+		int dest;
+		int weight;
+		
+		@Override
+		public int compareTo(Edege o) {
+			return this.weight=o.wieght;
+		}
+		
+	}
+}

@@ -1,9 +1,0 @@
-package com.dc.merge.sort;
-
-public class Main {
-	
-	public static void main() {
-		
-	}
-
-}

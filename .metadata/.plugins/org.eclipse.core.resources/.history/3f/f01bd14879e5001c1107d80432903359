@@ -1,7 +1,0 @@
-package com.algorithm.treesort;
-
-public class TreeNode {
-
-	int value;
-	
-}

@@ -1,9 +1,0 @@
-package com.algorithm.treesort;
-
-public class Main {
-	
-	static treeSort(int []arr) {
-		TreeNode root = new TreeNode(arr[0]);
-	}
-
-}

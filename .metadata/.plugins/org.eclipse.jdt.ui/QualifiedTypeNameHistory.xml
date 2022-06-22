@@ -20,10 +20,12 @@
     <fullyQualifiedTypeName name="com.algorithm.tree.bottomview.Main.Node"/>
     <fullyQualifiedTypeName name="java.util.TreeMap"/>
     <fullyQualifiedTypeName name="com.algorithm.tree.bottomview.Main.TreeNode"/>
-    <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="com.algorithm.graph.topologicalsort.Main.Graph"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.util.Stack"/>
     <fullyQualifiedTypeName name="java.lang.Comparable"/>
     <fullyQualifiedTypeName name="java.security.interfaces.EdECKey"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="com.algorithm.graph.euler.Main.Graph"/>
 </qualifiedTypeNameHistroy>

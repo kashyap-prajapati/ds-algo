@@ -1,8 +1,0 @@
-package com.algorithms.gd.prims;
-
-public class Main {
-
-	static void prims(int [][]graph,int noOfVertex) {
-		int[] visited = new int[noOfVertex];
-	}
-}
